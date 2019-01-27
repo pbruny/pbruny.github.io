@@ -4,6 +4,11 @@ h1 {
 
 .bar {
     fill: #3f1cd8;
+    transition: 0.5s;
+}
+
+.bar:hover {
+    fill: #2d12a5;
 }
   
 .axis {
