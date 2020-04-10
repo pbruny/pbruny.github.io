@@ -21,10 +21,20 @@ body {
   padding-left: 0.25rem;
 }
 
+a {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
 @media screen and (max-width: 400px) {
   .label {
     font-size: 16px;
     padding: 0;
+  }
+
+  a {
+    color: #fff;
+    font-size: 1.5rem;
   }
 
 }
