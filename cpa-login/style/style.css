@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2E5493;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  max-width: 724px;
+  max-height: 529px;
+  width: 100%;
+  height: 100%;
+  background-color: #EEF2F7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border: none;
+  border-radius: 15px;
+  outline: 0;
+}
+
+.info-wrapper {
+  background-color: #051540;
+  display: flex;
+  align-items: center;
+  max-width: 276px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px 0 0 15px;
+  color: #FFF;
+}
+
+.info-wrapper .description {
+  text-align: center;
+  width: 168px;
+  line-height: 14px;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 8px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.info-wrapper .year {
+  margin-top: 32px;
+  font-weight: 300;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.first-access-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 21px;
+  margin-right: 29px;
+}
+
+.first-access-wrapper p {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+  letter-spacing: 0.75px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 10px;
+}
+
+.first-access-wrapper .first-access-btn {
+  font-size: 10px;
+  text-align: center;
+  line-height: 10px;
+  padding: 10px 6px;
+  color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  width: 106px;
+  cursor: pointer;
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 36px;
+  width: 377px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.login-form label {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.login-form input {
+  padding: 16px;
+  border: 1px solid rgba(25, 25, 25, 0.32);
+  width: 304px;
+  position: relative;
+}
+
+.login-form a {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 12px;
+  line-height: 42px;
+  margin-top: 34px;
+}
+
+.login-form button {
+  padding: 10px 30px;
+  background-color: #1659BF;
+  color: #fff;
+  border: none;
+  outline: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 83px;
+  margin-top: 24px;
+  transition: 0.4s;
+}
+
+.login-form button:hover {
+  background-color: rgba(22, 89, 191, 0.9);
+}
