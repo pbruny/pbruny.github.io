@@ -11,8 +11,8 @@ body {
 }
 
 .wrapper {
-  max-width: 724px;
-  max-height: 529px;
+  max-width: 860px;
+  max-height: 640px;
   width: 100%;
   height: 100%;
   background-color: #EEF2F7;
@@ -42,15 +42,15 @@ body {
   text-align: center;
   width: 168px;
   line-height: 14px;
-  font-weight: 300;
-  font-size: 12px;
-  margin-top: 8px;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 16px;
   -webkit-font-smoothing: antialiased;
 }
 
 .info-wrapper .year {
   margin-top: 32px;
-  font-weight: 300;
+  font-weight: normal;
 }
 
 .login-wrapper {
@@ -78,7 +78,7 @@ body {
 }
 
 .first-access-wrapper .first-access-btn {
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   line-height: 10px;
   padding: 10px 6px;
@@ -103,8 +103,8 @@ body {
 .login-form label {
   font-size: 16px;
   line-height: 24px;
-  margin: 8px;
-  display: inline-block;
+  display: block;
+  margin: 8px 0;
 }
 
 .login-form input {
