@@ -229,7 +229,6 @@ footer .container {
   margin: 0;
 }
 
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .dobra-1 {
     background-image: url("./assets/mobile/dobra-1-bg.png");
@@ -269,7 +268,7 @@ footer .container {
     padding: 64px 128px;
     background-color: #fff;
   }
-  
+
   .container {
     max-width: 600px;
   }
@@ -429,3 +428,177 @@ footer .container {
 }
 
 /* Fim da página home */
+
+/* Página About */
+
+.about-dobra-1 {
+  background-image: url("./assets/about/about-bg.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-dobra-1:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: url("./assets/about/about-dobra2-bg.png");
+  height: 314px;
+  background-size: cover;
+  background-position: top center;
+}
+
+.about-dobra-2 {
+  background: #f6f6f6;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1px;
+}
+
+.about-dobra-2 .about-text {
+  max-width: 600px;
+}
+
+.about-main-text {
+  color: #fff;
+  text-align: left;
+  position: absolute;
+  right: 290px;
+  top: 400px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.about-main-text .cta p {
+  padding: 0 16px;
+  margin: 0;
+}
+
+.about-main-text .cta p:last-child {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1500px) {
+  .about-main-text {
+    right: 250px;
+    top: 230px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .about-dobra-1 {
+    background-image: url("./assets/about/about-bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .about-dobra-1:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url("./assets/about/about-dobra2-bg.png");
+    height: 300px;
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .about-main-text {
+    right: 0px;
+    top: 230px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about-main-text {
+    top: 150px;
+    left: 100px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-main-text {
+    top: 150px;
+    left: 100px;
+  }
+}
+
+/* Fim da página about */
+
+/* Página de contato */
+
+.contato-dobra-1 {
+  background-image: url("./assets/contato/contato-dobra-1-bg.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contato-dobra-1:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: url("./assets/about/about-dobra2-bg.png");
+  height: 314px;
+  background-size: cover;
+  background-position: top center;
+}
+
+.contato-dobra-2 {
+  background: #f6f6f6;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -150px;
+  margin-top: -1px;
+}
+
+.dobra2-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.dobra2-form-container input {
+  margin: 8px 0;
+  padding: 32px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 450px;
+}
+
+.dobra2-form-container textarea {
+  margin: 8px 0;
+  padding: 64px 32px;
+  border: none;
+  outline: none;
+  border-radius: 70px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  text-align: center;
+}
+
+.dobra2-form-container input:last-child {
+  padding: 64px 32px;
+}
+
+.dobra2-form-container input::placeholder {
+  text-align: center;
+}
+
+.dobra2-form-container button {
+  padding: 16px 128px;
+} 
