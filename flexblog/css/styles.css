@@ -342,7 +342,7 @@ img {
 }
 
 .newsletter-form button {
-  flex: 1 1 180px;
+  flex: 1 1 150px;
   font-family: 'Poppins', sans-serif;
   font-size: 2.25rem;
   font-weight: bold;
@@ -385,5 +385,10 @@ img {
 @media (max-width: 600px) {
   .newsletter-form button {
     font-size: 1.3rem;
+  }
+
+  .newsletter-form input {
+    font-size: 1.3rem;
+    flex: 3 1 150px;
   }
 }
